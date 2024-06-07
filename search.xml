@@ -8,8 +8,7 @@
 lengths <span class="math display">\[
 \begin{align}ds^2=|\mathrm{g}_{\alpha
 \beta}dx^{\alpha}dx^{\beta}|\end{align}
-\]</span> ,integrate it gives the length of a curve：</p>
-<p><span
+\]</span> ,integrate it gives the length of a curve： $$ <span
 class="math display">\[\begin{align}l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha
 \beta}dx^{\alpha}dx^{\beta}|}^{1/2}
 \\
@@ -18,10 +17,7 @@ class="math display">\[\begin{align}l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha
 \\
 =\int_{\lambda _0}^{\lambda _1}{|\vec{V}\cdot
 \vec{V}|^{1/2}}d\lambda\end{align}\]</span></p>
-<p><span class="math display">\[
-i\hbar\frac{\partial}{\partial
-t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi
-\]</span></p>
+<p>$$</p>
 <p>$$</p>
 <p>$$ Also,the computation of volumes is very important for integration
 in spacetime. Here, we mean by ‘volume’ the
