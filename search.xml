@@ -3,7 +3,7 @@
   <entry>
     <title>Differential Manifold and General relativity</title>
     <url>/2024/06/03/Math-test/</url>
-    <content><![CDATA[<h2 id="Lengths-and-volumes"><a href="#Lengths-and-volumes" class="headerlink" title="Lengths and volumes"></a>Lengths and volumes</h2><p>Recall that dx→ has squared lengths </p>
+    <content><![CDATA[<h2 id="Lengths-and-volumes"><a href="#Lengths-and-volumes" class="headerlink" title="Lengths and volumes"></a>Lengths and volumes</h2><p>Recall that $\vec{dx}$ has squared lengths </p>
 <script type="math/tex; mode=display">
 \begin{align}ds^2=|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|\end{align}</script><p>,integrate it gives the length of a curve：</p>
 <p>\begin{align}l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|}^{1/2}<br>\\<br>=\int_{\lambda _0}^{\lambda _1}{|\mathrm{g}_{\alpha \beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^{\beta}}{d\lambda}|^{1/2}}d\lambda<br>\\<br>=\int_{\lambda _0}^{\lambda _1}{|\vec{V}\cdot \vec{V}|^{1/2}}d\lambda\end{align}</p>
@@ -11,8 +11,8 @@
 i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi</script><script type="math/tex; mode=display">
 </script><p>Also,the computation of volumes is very important for integration in spacetime. Here, we mean by ‘volume’ the <strong>four-dimensional</strong> volume element we used for integrations in Gauss’law.</p>
 <p>We know that we can write </p>
-<script type="math/tex; mode=display">
-dx^0dx^1dx^2dx^3=\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0'},x^{1'},x^{2'},x^{3'} \right)}dx^{0'}dx^{1'}dx^{2'}dx^{3'}\tag{6}</script><p>The factor$\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0’},x^{1’},x^{2’},x^{3’} \right)}$is the <strong>Jacobian</strong> of the transformation from $\left\{ x^{\alpha’} \right\}$ to $\left\{ x^{\alpha} \right\}$  ,it is the same as </p>
+<script type="math/tex; mode=display">dx^0dx^1dx^2dx^3=\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0'},x^{1'},x^{2'},x^{3'} \right)}dx^{0'}dx^{1'}dx^{2'}dx^{3'}\tag{6}</script><script type="math/tex; mode=display">
+</script><p>The factor$\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0’},x^{1’},x^{2’},x^{3’} \right)}$is the <strong>Jacobian</strong> of the transformation from $\left\{ x^{\alpha’} \right\}$ to $\left\{ x^{\alpha} \right\}$  ,it is the same as </p>
 <script type="math/tex; mode=display">
 \frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0'},x^{1'},x^{2'},x^{3'} \right)}=\det \left( \begin{matrix}
     \frac{\partial x^0}{\partial x^{0'}}&        \frac{\partial x^0}{\partial x^{1'}}&        \cdots\\
