@@ -6,7 +6,6 @@
     <content><![CDATA[<h2 id="Lengths-and-volumes"><a href="#Lengths-and-volumes" class="headerlink" title="Lengths and volumes"></a>Lengths and volumes</h2><p>Recall that dx→ has squared lengths </p>
 <script type="math/tex; mode=display">
 ds^2=|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|</script><p>,integrate it gives the length of a curve：</p>
-<span id="more"></span>
 <script type="math/tex; mode=display">
 l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|}^{1/2}
 \\
