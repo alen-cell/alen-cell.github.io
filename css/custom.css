@@ -1,0 +1,10 @@
+/* source/css/custom.css */
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-column {
+  flex: 33.33%;
+  padding: 5px;
+}

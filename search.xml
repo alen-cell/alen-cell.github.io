@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Differential Manifold and General relativity</title>
+    <url>/2024/06/03/Math-test/</url>
+    <content><![CDATA[<h2 id="Lengths-and-volumes"><a href="#Lengths-and-volumes" class="headerlink" title="Lengths and volumes"></a>Lengths and volumes</h2><p>Recall that dx→ has squared lengths </p>
+<script type="math/tex; mode=display">
+ds^2=|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|</script><p>,integrate it gives the length of a curve：</p>
+<span id="more"></span>
+<script type="math/tex; mode=display">
+l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|}^{1/2}
+\\
+=\int_{\lambda _0}^{\lambda _1}{|\mathrm{g}_{\alpha \beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^{\beta}}{d\lambda}|^{1/2}}d\lambda 
+\\
+=\int_{\lambda _0}^{\lambda _1}{|\vec{V}\cdot \vec{V}|^{1/2}}d\lambda</script><p>Also,the computation of volumes is very important for integration in spacetime. Here, we mean by ‘volume’ the <strong>four-dimensional</strong> volume element we used for integrations in Gauss’law.</p>
+<p>We know that we can write </p>
+<script type="math/tex; mode=display">
+dx^0dx^1dx^2dx^3=\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0'},x^{1'},x^{2'},x^{3'} \right)}dx^{0'}dx^{1'}dx^{2'}dx^{3'}\tag{6}</script><p>The factor$\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0’},x^{1’},x^{2’},x^{3’} \right)}$is the <strong>Jacobian</strong> of the transformation from $\left\{ x^{\alpha’} \right\}$ to $\left\{ x^{\alpha} \right\}$  ,it is the same as </p>
+<script type="math/tex; mode=display">
+\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0'},x^{1'},x^{2'},x^{3'} \right)}=\det \left( \begin{matrix}
+    \frac{\partial x^0}{\partial x^{0'}}&        \frac{\partial x^0}{\partial x^{1'}}&        \cdots\\
+    \frac{\partial x^1}{\partial x^{0'}}&        \,\,&        \,\,\\
+    \vdots&        \,\,&        \,\,\
+\end{matrix} \right)=\det \left( {\Lambda ^{\alpha}}_{\beta '} \right)\tag{5}</script><p>Through analyzing the derivatives of general vectors we can obtain :</p>
+<script type="math/tex; mode=display">
+\frac{\partial \vec{V}}{\partial x^{\beta}}=\frac{\partial V^{\alpha}}{\partial x^{\beta}}\vec{e}_{\alpha}+V^{\alpha}\frac{\partial \vec{e}_{\alpha}}{\partial x^{\beta}}\tag{9}\\</script><p>Notice that $\frac{\partial \vec{e}_{\alpha}}{\partial x^{\beta}}$</p>
+<script type="math/tex; mode=display">
+{V^{\alpha}}_{;\beta}={V^{\alpha}}_{,\beta}+V^{\mu}{\Gamma ^{\alpha}}_{\mu \beta}
+\\
+p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha \beta}\tag{10}</script>]]></content>
+  </entry>
+  <entry>
+    <title>Math equation test</title>
+    <url>/2024/06/03/My-New-Post/</url>
+    <content><![CDATA[<h1 id="Math-equation-test"><a href="#Math-equation-test" class="headerlink" title="Math equation test"></a>Math equation test</h1><span id="more"></span>
+<script type="math/tex; mode=display">
+\frac{\partial ^2}{\partial x^{\gamma}\partial x^{\mu}}g_{\alpha \beta}\left( \mathcal{P} \right) \ne 0</script><script type="math/tex; mode=display">
+sin(\omega t)=\frac{1}{2j}(e^{j\omega t}-e^{-j\omega t})</script><script type="math/tex; mode=display">
+\begin{split}i\hbar\frac{\partial}{\partial t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi\end{split}</script><script type="math/tex; mode=display">
+\begin{align}
+-4 + 5x &= 2 + y \nonumber \\
+w + 2 &= -1 + w \\
+ab &= cb
+\end{align}</script><script type="math/tex; mode=display">
+\begin{split}\frac{\partial ^2}{\partial x^{\gamma}\partial x^{\mu}}g_{\alpha \beta}\left( \mathcal{P} \right) \ne 0\end{split}</script><script type="math/tex; mode=display">
+\begin{equation}x+1\over\sqrt{1-x^2} \end{equation}$$\tag{i}</script><h2 id="The-metric-and-local-flatness"><a href="#The-metric-and-local-flatness" class="headerlink" title="The metric and local flatness"></a>The metric and local flatness</h2><ul>
+<li>The metric,provide a mapping between vectors and one-form at every point.</li>
+</ul>
+<p>Given a vector field $\\vec{V}\left( \mathcal{P} \right)$\ ( $\mathcal{P}$\ is any point),there is a unique one-form <script type="math/tex">\tilde{V}\left( \mathcal{P} \right) =\mathbf{g}\left( \vec{V}\left( \mathcal{P} \right) ,  \ \ \ \ \  \right)</script></p>
+]]></content>
+  </entry>
+</search>
