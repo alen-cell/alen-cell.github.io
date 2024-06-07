@@ -7,11 +7,7 @@
 <script type="math/tex; mode=display">
 \begin{align}ds^2=|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|\end{align}</script><p>,integrate it gives the length of a curve：</p>
 <script type="math/tex; mode=display">
-\begin{align}l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|}^{1/2}
-\\
-=\int_{\lambda _0}^{\lambda _1}{|\mathrm{g}_{\alpha \beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^{\beta}}{d\lambda}|^{1/2}}d\lambda 
-\\
-=\int_{\lambda _0}^{\lambda _1}{|\vec{V}\cdot \vec{V}|^{1/2}}d\lambda\end{align}</script><p>Also,the computation of volumes is very important for integration in spacetime. Here, we mean by ‘volume’ the <strong>four-dimensional</strong> volume element we used for integrations in Gauss’law.</p>
+</script><p>Also,the computation of volumes is very important for integration in spacetime. Here, we mean by ‘volume’ the <strong>four-dimensional</strong> volume element we used for integrations in Gauss’law.</p>
 <p>We know that we can write </p>
 <script type="math/tex; mode=display">
 dx^0dx^1dx^2dx^3=\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0'},x^{1'},x^{2'},x^{3'} \right)}dx^{0'}dx^{1'}dx^{2'}dx^{3'}\tag{6}</script><p>The factor$\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( x^{0’},x^{1’},x^{2’},x^{3’} \right)}$is the <strong>Jacobian</strong> of the transformation from $\left\{ x^{\alpha’} \right\}$ to $\left\{ x^{\alpha} \right\}$  ,it is the same as </p>
