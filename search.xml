@@ -6,6 +6,7 @@
     <content><![CDATA[<h2 id="Lengths-and-volumes"><a href="#Lengths-and-volumes" class="headerlink" title="Lengths and volumes"></a>Lengths and volumes</h2><p>Recall that dx→ has squared lengths </p>
 <script type="math/tex; mode=display">
 \begin{align}ds^2=|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|\end{align}</script><p>,integrate it gives the length of a curve：</p>
+<p>\begin{align}l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha \beta}dx^{\alpha}dx^{\beta}|}^{1/2}<br>\\<br>=\int_{\lambda _0}^{\lambda _1}{|\mathrm{g}_{\alpha \beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^{\beta}}{d\lambda}|^{1/2}}d\lambda<br>\\<br>=\int_{\lambda _0}^{\lambda _1}{|\vec{V}\cdot \vec{V}|^{1/2}}d\lambda\end{align}</p>
 <script type="math/tex; mode=display">
 </script><p>Also,the computation of volumes is very important for integration in spacetime. Here, we mean by ‘volume’ the <strong>four-dimensional</strong> volume element we used for integrations in Gauss’law.</p>
 <p>We know that we can write </p>
