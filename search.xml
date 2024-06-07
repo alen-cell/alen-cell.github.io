@@ -24,7 +24,7 @@ dx^0dx^1dx^2dx^3=\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left( 
 <script type="math/tex; mode=display">
 \frac{\partial \vec{V}}{\partial x^{\beta}}=\frac{\partial V^{\alpha}}{\partial x^{\beta}}\vec{e}_{\alpha}+V^{\alpha}\frac{\partial \vec{e}_{\alpha}}{\partial x^{\beta}}\tag{9}\\</script><p>Notice that $\frac{\partial \vec{e}_{\alpha}}{\partial x^{\beta}}$</p>
 <script type="math/tex; mode=display">
-</script><script type="math/tex; mode=display">{V^{\alpha}}_{;\beta}={V^{\alpha}}_{,\beta}+V^{\mu}{\Gamma ^{\alpha}}_{\mu \beta}
+</script><script type="math/tex; mode=display">\begin{align}{V^{\alpha}}_{;\beta}={V^{\alpha}}_{,\beta}+V^{\mu}{\Gamma ^{\alpha}}_{\mu \beta}
 \\
 p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha \beta}\tag{10}</script>]]></content>
   </entry>
