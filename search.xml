@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Differential Manifold and General relativity</title>
-    <url>/2024/06/03/Math-test/</url>
-    <content><![CDATA[<h2 id="the-metric-and-local-flatness">The metric and local
+    <title>Math equation test</title>
+    <url>/2024/06/03/My-New-Post/</url>
+    <content><![CDATA[<h1 id="math-equation-test">Math equation test</h1>
+<span id="more"></span>
+<p><span class="math display">\[
+\frac{\partial ^2}{\partial x^{\gamma}\partial x^{\mu}}g_{\alpha
+\beta}\left( \mathcal{P} \right) \ne 0
+\]</span></p>
+<p><span class="math display">\[
+sin(\omega t)=\frac{1}{2j}(e^{j\omega t}-e^{-j\omega t})
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}i\hbar\frac{\partial}{\partial
+t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{align}
+-4 + 5x &amp;= 2 + y \nonumber \\
+w + 2 &amp;= -1 + w \\
+ab &amp;= cb
+\end{align}
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}\frac{\partial ^2}{\partial x^{\gamma}\partial
+x^{\mu}}g_{\alpha \beta}\left( \mathcal{P} \right) \ne 0\end{split}
+\]</span></p>
+<p><span class="math display">\[
+\begin{equation}x+1\over\sqrt{1-x^2} \end{equation}\]</span> $$</p>
+<h2 id="the-metric-and-local-flatness">The metric and local
 flatness</h2>
 <ul>
 <li>The metric,provide a mapping between vectors and one-form at every
 point.</li>
 </ul>
-<p>Given a vector field V→(P) ( P is any point),there is a unique
-one-form V~(P)=g(V→(P), ) .</p>
-<ul>
-<li>metric near P is approximately that of <strong>SR</strong>,
-differences being of second order in the coordinates.</li>
-</ul>
-<p><span class="math display">\[
+<p>Given a vector field <span class="math inline">\(\\vec{V}\left(
+\mathcal{P} \right)\)</span> ( <span
+class="math inline">\(\mathcal{P}\)</span> is any point),there is a
+unique one-form <span class="math display">\[\tilde{V}\left( \mathcal{P}
+\right) =\mathbf{g}\left( \vec{V}\left( \mathcal{P} \right) ,  \ \ \ \
+\  \right)   \]</span></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Differential Manifold and General relativity</title>
+    <url>/2024/06/03/Diffg/</url>
+    <content><![CDATA[<h2 id="the-metric-and-local-flatness">The metric and local
+flatness</h2>
+<p>The metric,provide a mapping between vectors and one-form at every
+point.Given a vector field <span
+class="math inline">\(\vec{V}(\mathcal{P})\)</span> ( <span
+class="math inline">\(\mathcal{P}\)</span> is any point),there is a
+unique one-form <span class="math inline">\(\tilde{V}\left( \mathcal{P}
+\right)=g(\vec{V}(\mathcal{P}) ,\ \   )\)</span>.metric near $ $ is
+approximately that of <strong>SR</strong>, differences being of second
+order in the coordinates. <span class="math display">\[
 g_{\alpha \beta}\left( x^{\mu} \right) =\eta _{\alpha \beta}+0\left[
-\left( x^{\mu} \right) ^2 \right]  \tag{1}  
+\left( x^{\mu} \right) ^2 \right]  \tag{1}
 \]</span></p>
-<p>which can be rephrased in a more precise way: <span
+<p>​ which can be rephrased in a more precise way: <span
 class="math display">\[
 \begin{split}g_{\alpha \beta}\left( \mathcal{P} \right) =\eta _{\alpha
 \beta} \\ \frac{\partial}{\partial x^{\gamma}}g_{\alpha \beta}\left(
@@ -90,49 +130,11 @@ class="math display">\[
 p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
 \beta}\end{split}\tag{10}
 \]</span></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Math equation test</title>
-    <url>/2024/06/03/My-New-Post/</url>
-    <content><![CDATA[<h1 id="math-equation-test">Math equation test</h1>
-<span id="more"></span>
 <p><span class="math display">\[
-\frac{\partial ^2}{\partial x^{\gamma}\partial x^{\mu}}g_{\alpha
-\beta}\left( \mathcal{P} \right) \ne 0
+\nabla_V \nabla_V \xi^\alpha = \nabla_V (\nabla_V \xi^\alpha) =
+\frac{d}{d\lambda} (\nabla_V \xi^\alpha) = \Gamma^\alpha_{\beta 0}
+(\nabla_V \xi^\beta)
 \]</span></p>
-<p><span class="math display">\[
-sin(\omega t)=\frac{1}{2j}(e^{j\omega t}-e^{-j\omega t})
-\]</span></p>
-<p><span class="math display">\[
-\begin{split}i\hbar\frac{\partial}{\partial
-t}\psi=-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi\end{split}
-\]</span></p>
-<p><span class="math display">\[
-\begin{align}
--4 + 5x &amp;= 2 + y \nonumber \\
-w + 2 &amp;= -1 + w \\
-ab &amp;= cb
-\end{align}
-\]</span></p>
-<p><span class="math display">\[
-\begin{split}\frac{\partial ^2}{\partial x^{\gamma}\partial
-x^{\mu}}g_{\alpha \beta}\left( \mathcal{P} \right) \ne 0\end{split}
-\]</span></p>
-<p><span class="math display">\[
-\begin{equation}x+1\over\sqrt{1-x^2} \end{equation}\]</span> $$</p>
-<h2 id="the-metric-and-local-flatness">The metric and local
-flatness</h2>
-<ul>
-<li>The metric,provide a mapping between vectors and one-form at every
-point.</li>
-</ul>
-<p>Given a vector field <span class="math inline">\(\\vec{V}\left(
-\mathcal{P} \right)\)</span> ( <span
-class="math inline">\(\mathcal{P}\)</span> is any point),there is a
-unique one-form <span class="math display">\[\tilde{V}\left( \mathcal{P}
-\right) =\mathbf{g}\left( \vec{V}\left( \mathcal{P} \right) ,  \ \ \ \
-\  \right)   \]</span></p>
 ]]></content>
   </entry>
 </search>
