@@ -44,9 +44,11 @@ unique one-form <span class="math display">\[\tilde{V}\left( \mathcal{P}
 ]]></content>
   </entry>
   <entry>
-    <title>Differential Manifold and General relativity</title>
-    <url>/2024/06/03/Diffg/</url>
-    <content><![CDATA[<h2 id="the-metric-and-local-flatness">The metric and local
+    <title></title>
+    <url>/2024/06/03/Math-test/</url>
+    <content><![CDATA[<p>title: Differential Manifold and General relativity date: 2024-06-08
+19:04:20 tags:</p>
+<h2 id="the-metric-and-local-flatness">The metric and local
 flatness</h2>
 <p>The metric,provide a mapping between vectors and one-form at every
 point.Given a vector field <span
@@ -55,20 +57,41 @@ class="math inline">\(\mathcal{P}\)</span> is any point),there is a
 unique one-form <span class="math inline">\(\tilde{V}\left( \mathcal{P}
 \right)=g(\vec{V}(\mathcal{P}) ,\ \   )\)</span>.metric near $ $ is
 approximately that of <strong>SR</strong>, differences being of second
-order in the coordinates. <span class="math display">\[
+order in the coordinates. From now on we shall refer to such coordinate
+systems as ‘local Lorentz frames’ or ‘local inertial frames’. <span
+class="math display">\[
+g_{\alpha \beta} =
+\begin{pmatrix}
+-1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{pmatrix}
+\equiv \eta_{\alpha \beta}
+\]</span></p>
+<p><span class="math display">\[
 g_{\alpha \beta}\left( x^{\mu} \right) =\eta _{\alpha \beta}+0\left[
 \left( x^{\mu} \right) ^2 \right]  \tag{1}
 \]</span></p>
-<p>​ which can be rephrased in a more precise way: <span
+<p>which can be rephrased in a more precise way: <span
 class="math display">\[
 \begin{split}g_{\alpha \beta}\left( \mathcal{P} \right) =\eta _{\alpha
 \beta} \\ \frac{\partial}{\partial x^{\gamma}}g_{\alpha \beta}\left(
 \mathcal{P} \right) =0  \\ \frac{\partial ^2}{\partial
 x^{\gamma}\partial x^{\mu}}g_{\alpha \beta}\left( \mathcal{P} \right)
-\ne 0\end{split}\tag{2}
-\]</span> The existence of local Lorentz frames is merely the statement
-that any curved space has a flat space ‘<strong>tangent</strong>’ to it
-at any point. Recall that straight lines in flat spacetime are the world
+\ne 0\end{split}\tag{2}\
+\]</span> because <span class="math display">\[
+\begin{split}\Gamma^\alpha_{\mu\nu} = \frac{1}{2} g^{\alpha\beta} \left(
+\partial_\nu g_{\beta\mu} + \partial_\mu g_{\beta\nu} - \partial_\beta
+g_{\mu\nu} \right)\\
+g_{\alpha\beta;\gamma} = g_{\alpha\beta,\gamma} = 0 \text{ at }
+P\end{split}\tag{3}
+\]</span> and so: <span class="math display">\[
+\Gamma^\alpha_{\mu\nu} = 0\tag{4}
+\]</span></p>
+<p>The existence of local Lorentz frames is merely the statement that
+any curved space has a flat space ‘<strong>tangent</strong>’ to it at
+any point. Recall that straight lines in flat spacetime are the world
 lines of free particles; the absence of first-derivative terms (2) in
 the metric of a curved spacetime will mean that free particles are
 moving on lines that are locally straight in this coordinate system.
