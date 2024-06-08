@@ -44,11 +44,9 @@ unique one-form <span class="math display">\[\tilde{V}\left( \mathcal{P}
 ]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/06/03/Math-test/</url>
-    <content><![CDATA[<p>title: Differential Manifold and General relativity date: 2024-06-08
-19:04:20 tags:</p>
-<h2 id="the-metric-and-local-flatness">The metric and local
+    <title>Differential Manifold and General relativity</title>
+    <url>/2024/06/08/Math-test/</url>
+    <content><![CDATA[<h2 id="the-metric-and-local-flatness">The metric and local
 flatness</h2>
 <p>The metric,provide a mapping between vectors and one-form at every
 point.Given a vector field <span
