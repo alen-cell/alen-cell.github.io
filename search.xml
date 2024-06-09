@@ -1,9 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Differential Manifold and General relativity</title>
+    <url>/2024/06/03/Math-test/</url>
+    <content><![CDATA[<html><head></head><body><h2 id="the-metric-and-local-flatness">The metric and local
+flatness</h2>
+<p>The metric,provide a mapping between vectors and one-form at every
+point.Given a vector field <span class="math inline">\(\vec{V}(\mathcal{P})\)</span> ( <span class="math inline">\(\mathcal{P}\)</span> is any point),there is a
+unique one-form <span class="math inline">\(\tilde{V}\left( \mathcal{P}
+\right)=g(\vec{V}(\mathcal{P}) ,\ \   )\)</span>.metric near $ $ is
+approximately that of <strong>SR</strong>, differences being of second
+order in the coordinates. From now on we shall refer to such coordinate
+systems as ‘local Lorentz frames’ or ‘local inertial frames’. <span class="math display">\[
+g_{\alpha \beta} =
+\begin{pmatrix}
+-1 &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{pmatrix}
+\equiv \eta_{\alpha \beta}
+\]</span></p>
+<p><span class="math display">\[
+g_{\alpha \beta}\left( x^{\mu} \right) =\eta _{\alpha \beta}+0\left[
+\left( x^{\mu} \right) ^2 \right]  \tag{1}
+\]</span></p>
+<p>which can be rephrased in a more precise way: <span class="math display">\[
+\begin{split}g_{\alpha \beta}\left( \mathcal{P} \right) =\eta _{\alpha
+\beta} \\ \frac{\partial}{\partial x^{\gamma}}g_{\alpha \beta}\left(
+\mathcal{P} \right) =0  \\ \frac{\partial ^2}{\partial
+x^{\gamma}\partial x^{\mu}}g_{\alpha \beta}\left( \mathcal{P} \right)
+\ne 0\end{split}\tag{2}\
+\]</span> because <span class="math display">\[
+\begin{split}\Gamma^\alpha_{\mu\nu} = \frac{1}{2} g^{\alpha\beta} \left(
+\partial_\nu g_{\beta\mu} + \partial_\mu g_{\beta\nu} - \partial_\beta
+g_{\mu\nu} \right)\\
+g_{\alpha\beta;\gamma} = g_{\alpha\beta,\gamma} = 0 \text{ at }
+P\end{split}\tag{3}
+\]</span> and so: <span class="math display">\[
+\Gamma^\alpha_{\mu\nu} = 0\tag{4}
+\]</span></p>
+<p>The existence of local Lorentz frames is merely the statement that
+any curved space has a flat space ‘<strong>tangent</strong>’ to it at
+any point. Recall that straight lines in flat spacetime are the world
+lines of free particles; the absence of first-derivative terms (2) in
+the metric of a curved spacetime will mean that free particles are
+moving on lines that are locally straight in this coordinate system.
+This makes such coordinates very useful for us, since the equations of
+physics will be nearly as simple in them as in flat spacetime.</p>
+<h2 id="lengths-and-volumes">Lengths and volumes</h2>
+<p>Recall that <span class="math inline">\(\vec{dx}\)</span> has squared
+lengths <span class="math display">\[
+\begin{align}ds^2=|\mathrm{g}_{\alpha
+\beta}dx^{\alpha}dx^{\beta}|\end{align}
+\]</span> ,integrate it gives the length of a curve： <span class="math display">\[
+l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha
+\beta}dx^{\alpha}dx^{\beta}|}^{1/2} \\ =\int_{\lambda _0}^{\lambda
+_1}{|\mathrm{g}_{\alpha
+\beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^{\beta}}{d\lambda}|^{1/2}}d\lambda  \\
+=\int_{\lambda _0}^{\lambda _1}{|\vec{V}\cdot \vec{V}|^{1/2}}d\lambda
+\tag{3}  
+\]</span> Also,the computation of volumes is very important for
+integration in space time. Here, we mean by ‘volume’ the
+<strong>four-dimensional</strong> volume element we used for
+integrations in Gauss’ law.</p>
+<p>We know that we can write <span class="math display">\[
+dx^0dx^1dx^2dx^3=\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial
+\left( x^{0'},x^{1'},x^{2'},x^{3'}
+\right)}dx^{0'}dx^{1'}dx^{2'}dx^{3'}\tag{6}
+\]</span></p>
+<p>The factor<span class="math inline">\(\frac{\partial \left(
+x^0,x^1,x^2,x^3 \right)}{\partial \left(
+x^{0'},x^{1'},x^{2'},x^{3'} \right)}\)</span>is the
+<strong>Jacobian</strong> of the transformation from <span class="math inline">\(\left\{ x^{\alpha'} \right\}\)</span> to <span class="math inline">\(\left\{ x^{\alpha} \right\}\)</span> ,it is the
+same as <span class="math display">\[
+\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left(
+x^{0'},x^{1'},x^{2'},x^{3'} \right)}=\det \left(
+\begin{matrix}
+    \frac{\partial x^0}{\partial x^{0'}}&amp;       \frac{\partial
+x^0}{\partial x^{1'}}&amp;       \cdots\\
+    \frac{\partial x^1}{\partial
+x^{0'}}&amp;       \,\,&amp;       \,\,\\
+    \vdots&amp;     \,\,&amp;       \,\,\
+\end{matrix} \right)=\det \left( {\Lambda ^{\alpha}}_{\beta '}
+\right)\tag{5}
+\]</span></p>
+<p>After some calculation,we obtains that <span class="math display">\[
+dx^0dx^1dx^2dx^3=\left[ -\det \left( \mathrm{g}_{\alpha '\beta
+'} \right) \right]
+dx^{0'}dx^{1'}dx^{2'}dx^{3'}=\left( -\mathrm{g} \right)
+^{1/2}dx^{0'}dx^{1'}dx^{2'}dx^{3'} \\ \mathrm{g}=\det
+\left( \mathrm{g}_{\alpha '\beta '} \right) \tag{6}
+\]</span> Take an example of spherical coordinates,the metric is: <span class="math display">\[
+\left( \mathrm{g}_{ij} \right) =\left(
+\begin{matrix}  1&amp;      0&amp;      0\\     0&amp;      r^2&amp;        0\\     0&amp;      0&amp;      r^2\sin
+^2\theta\\ \end{matrix} \right) \tag{7}  
+\]</span> remember that <span class="math display">\[
+\,\,\left( \mathrm{g}_{\alpha '\beta '} \right)
+=\mathrm{g}\left( \vec{e}_{\alpha '},\vec{e}_{\beta '} \right)
+=\vec{e}_{\alpha '}\cdot \vec{e}_{\beta '}\tag{8}  
+\]</span> <strong>Covariant differentiation</strong></p>
+<p>Through analyzing the derivatives of general vectors we can obtain :
+<span class="math display">\[
+\frac{\partial \vec{V}}{\partial x^{\beta}}=\frac{\partial
+V^{\alpha}}{\partial x^{\beta}}\vec{e}_{\alpha}+V^{\alpha}\frac{\partial
+\vec{e}_{\alpha}}{\partial x^{\beta}}\tag{9}\\
+\]</span></p>
+<p>Notice that <span class="math inline">\(\frac{\partial
+\vec{e}_{\alpha}}{\partial x^{\beta}}\)</span>​ itself is a vector, it
+can be written as a linear combination of basis vector,we use symbol</p>
+<p>Γμαβ to denote the coefficients in this combination <span class="math display">\[
+\frac{\partial \vec{e}_{\alpha}}{\partial x^{\beta}}={\Gamma
+^{\mu}}_{\alpha \beta}\vec{e}_{\mu}\tag{10}  
+\]</span> for example,in polar coordinates: <span class="math display">\[
+\begin{cases}   \frac{\partial \vec{e}_r}{\partial r}=0=\varGamma
+_{rr}^{u}=0\\     \frac{\partial \vec{e}_r}{\partial
+\theta}=\frac{1}{r}\vec{e}_{\theta}=\varGamma _{r\theta}^{r}=0,\varGamma
+_{r\theta}^{\theta}=\frac{1}{r}\\   \vdots\\ \end{cases} \tag{11}
+\]</span> so,⭐ <span class="math display">\[
+\frac{\partial \vec{V}}{\partial x^{\beta}}=\left( \frac{\partial
+V^{\alpha}}{\partial x^{\beta}}+V^{\mu}{\Gamma ^{\alpha}}_{\mu \beta}
+\right) \vec{e}_{\alpha}\tag{12}
+\]</span> which can be written as: <span class="math display">\[
+{\left( \nabla \vec{V} \right) ^{\alpha}}_{\beta}=\left( \nabla
+_{\beta}\vec{V} \right) ^{\alpha}={V^{\alpha}}_{;\beta}\tag{14}
+\]</span> Similarly,an one-form can have the same property: <span class="math display">\[
+p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
+\beta}\tag{15}  
+\]</span> We can also write out an relationship between metric
+${<em>{,}} $ and Christoffel symbols ${^{}}</em>{} $ <span class="math display">\[
+\begin{split}{V^{\alpha}}_{;\beta}={V^{\alpha}}_{,\beta}+V^{\mu}{\Gamma
+^{\alpha}}_{\mu \beta}
+\\
+p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
+\beta}\end{split}\tag{10}
+\]</span></p>
+<p><span class="math display">\[
+\nabla_V \nabla_V \xi^\alpha = \nabla_V (\nabla_V \xi^\alpha) =
+\frac{d}{d\lambda} (\nabla_V \xi^\alpha) = \Gamma^\alpha_{\beta 0}
+(\nabla_V \xi^\beta)
+\]</span></p>
+</body></html>]]></content>
+  </entry>
+  <entry>
     <title>Math equation test</title>
     <url>/2024/06/03/My-New-Post/</url>
-    <content><![CDATA[<h1 id="math-equation-test">Math equation test</h1>
+    <content><![CDATA[<html><head></head><body><h1 id="math-equation-test">Math equation test</h1>
 <span id="more"></span>
 <p><span class="math display">\[
 \frac{\partial ^2}{\partial x^{\gamma}\partial x^{\mu}}g_{\alpha
@@ -36,165 +178,10 @@ flatness</h2>
 point.</li>
 </ul>
 <p>Given a vector field <span class="math inline">\(\\vec{V}\left(
-\mathcal{P} \right)\)</span> ( <span
-class="math inline">\(\mathcal{P}\)</span> is any point),there is a
+\mathcal{P} \right)\)</span>&nbsp;( <span class="math inline">\(\mathcal{P}\)</span>&nbsp;is any point),there is a
 unique one-form <span class="math display">\[\tilde{V}\left( \mathcal{P}
 \right) =\mathbf{g}\left( \vec{V}\left( \mathcal{P} \right) ,  \ \ \ \
 \  \right)   \]</span></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Differential Manifold and General relativity</title>
-    <url>/2024/06/03/Math-test/</url>
-    <content><![CDATA[<h2 id="the-metric-and-local-flatness">The metric and local
-flatness</h2>
-<p>The metric,provide a mapping between vectors and one-form at every
-point.Given a vector field <span
-class="math inline">\(\vec{V}(\mathcal{P})\)</span> ( <span
-class="math inline">\(\mathcal{P}\)</span> is any point),there is a
-unique one-form <span class="math inline">\(\tilde{V}\left( \mathcal{P}
-\right)=g(\vec{V}(\mathcal{P}) ,\ \   )\)</span>.metric near $ $ is
-approximately that of <strong>SR</strong>, differences being of second
-order in the coordinates. From now on we shall refer to such coordinate
-systems as ‘local Lorentz frames’ or ‘local inertial frames’. <span
-class="math display">\[
-g_{\alpha \beta} =
-\begin{pmatrix}
--1 &amp; 0 &amp; 0 &amp; 0 \\
-0 &amp; 1 &amp; 0 &amp; 0 \\
-0 &amp; 0 &amp; 1 &amp; 0 \\
-0 &amp; 0 &amp; 0 &amp; 1
-\end{pmatrix}
-\equiv \eta_{\alpha \beta}
-\]</span></p>
-<p><span class="math display">\[
-g_{\alpha \beta}\left( x^{\mu} \right) =\eta _{\alpha \beta}+0\left[
-\left( x^{\mu} \right) ^2 \right]  \tag{1}
-\]</span></p>
-<p>which can be rephrased in a more precise way: <span
-class="math display">\[
-\begin{split}g_{\alpha \beta}\left( \mathcal{P} \right) =\eta _{\alpha
-\beta} \\ \frac{\partial}{\partial x^{\gamma}}g_{\alpha \beta}\left(
-\mathcal{P} \right) =0  \\ \frac{\partial ^2}{\partial
-x^{\gamma}\partial x^{\mu}}g_{\alpha \beta}\left( \mathcal{P} \right)
-\ne 0\end{split}\tag{2}\
-\]</span> because <span class="math display">\[
-\begin{split}\Gamma^\alpha_{\mu\nu} = \frac{1}{2} g^{\alpha\beta} \left(
-\partial_\nu g_{\beta\mu} + \partial_\mu g_{\beta\nu} - \partial_\beta
-g_{\mu\nu} \right)\\
-g_{\alpha\beta;\gamma} = g_{\alpha\beta,\gamma} = 0 \text{ at }
-P\end{split}\tag{3}
-\]</span> and so: <span class="math display">\[
-\Gamma^\alpha_{\mu\nu} = 0\tag{4}
-\]</span></p>
-<p>The existence of local Lorentz frames is merely the statement that
-any curved space has a flat space ‘<strong>tangent</strong>’ to it at
-any point. Recall that straight lines in flat spacetime are the world
-lines of free particles; the absence of first-derivative terms (2) in
-the metric of a curved spacetime will mean that free particles are
-moving on lines that are locally straight in this coordinate system.
-This makes such coordinates very useful for us, since the equations of
-physics will be nearly as simple in them as in flat spacetime.</p>
-<h2 id="lengths-and-volumes">Lengths and volumes</h2>
-<p>Recall that <span class="math inline">\(\vec{dx}\)</span> has squared
-lengths <span class="math display">\[
-\begin{align}ds^2=|\mathrm{g}_{\alpha
-\beta}dx^{\alpha}dx^{\beta}|\end{align}
-\]</span> ,integrate it gives the length of a curve： <span
-class="math display">\[
-l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha
-\beta}dx^{\alpha}dx^{\beta}|}^{1/2} \\ =\int_{\lambda _0}^{\lambda
-_1}{|\mathrm{g}_{\alpha
-\beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^{\beta}}{d\lambda}|^{1/2}}d\lambda  \\
-=\int_{\lambda _0}^{\lambda _1}{|\vec{V}\cdot \vec{V}|^{1/2}}d\lambda
-\tag{3}  
-\]</span> Also,the computation of volumes is very important for
-integration in space time. Here, we mean by ‘volume’ the
-<strong>four-dimensional</strong> volume element we used for
-integrations in Gauss’ law.</p>
-<p>We know that we can write <span class="math display">\[
-dx^0dx^1dx^2dx^3=\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial
-\left( x^{0&#39;},x^{1&#39;},x^{2&#39;},x^{3&#39;}
-\right)}dx^{0&#39;}dx^{1&#39;}dx^{2&#39;}dx^{3&#39;}\tag{6}
-\]</span></p>
-<p>The factor<span class="math inline">\(\frac{\partial \left(
-x^0,x^1,x^2,x^3 \right)}{\partial \left(
-x^{0&#39;},x^{1&#39;},x^{2&#39;},x^{3&#39;} \right)}\)</span>is the
-<strong>Jacobian</strong> of the transformation from <span
-class="math inline">\(\left\{ x^{\alpha&#39;} \right\}\)</span> to <span
-class="math inline">\(\left\{ x^{\alpha} \right\}\)</span> ,it is the
-same as <span class="math display">\[
-\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left(
-x^{0&#39;},x^{1&#39;},x^{2&#39;},x^{3&#39;} \right)}=\det \left(
-\begin{matrix}
-    \frac{\partial x^0}{\partial x^{0&#39;}}&amp;       \frac{\partial
-x^0}{\partial x^{1&#39;}}&amp;       \cdots\\
-    \frac{\partial x^1}{\partial
-x^{0&#39;}}&amp;       \,\,&amp;       \,\,\\
-    \vdots&amp;     \,\,&amp;       \,\,\
-\end{matrix} \right)=\det \left( {\Lambda ^{\alpha}}_{\beta &#39;}
-\right)\tag{5}
-\]</span></p>
-<p>After some calculation,we obtains that <span class="math display">\[
-dx^0dx^1dx^2dx^3=\left[ -\det \left( \mathrm{g}_{\alpha &#39;\beta
-&#39;} \right) \right]
-dx^{0&#39;}dx^{1&#39;}dx^{2&#39;}dx^{3&#39;}=\left( -\mathrm{g} \right)
-^{1/2}dx^{0&#39;}dx^{1&#39;}dx^{2&#39;}dx^{3&#39;} \\ \mathrm{g}=\det
-\left( \mathrm{g}_{\alpha &#39;\beta &#39;} \right) \tag{6}
-\]</span> Take an example of spherical coordinates,the metric is: <span
-class="math display">\[
-\left( \mathrm{g}_{ij} \right) =\left(
-\begin{matrix}  1&amp;      0&amp;      0\\     0&amp;      r^2&amp;        0\\     0&amp;      0&amp;      r^2\sin
-^2\theta\\ \end{matrix} \right) \tag{7}  
-\]</span> remember that <span class="math display">\[
-\,\,\left( \mathrm{g}_{\alpha &#39;\beta &#39;} \right)
-=\mathrm{g}\left( \vec{e}_{\alpha &#39;},\vec{e}_{\beta &#39;} \right)
-=\vec{e}_{\alpha &#39;}\cdot \vec{e}_{\beta &#39;}\tag{8}  
-\]</span> <strong>Covariant differentiation</strong></p>
-<p>Through analyzing the derivatives of general vectors we can obtain :
-<span class="math display">\[
-\frac{\partial \vec{V}}{\partial x^{\beta}}=\frac{\partial
-V^{\alpha}}{\partial x^{\beta}}\vec{e}_{\alpha}+V^{\alpha}\frac{\partial
-\vec{e}_{\alpha}}{\partial x^{\beta}}\tag{9}\\
-\]</span></p>
-<p>Notice that <span class="math inline">\(\frac{\partial
-\vec{e}_{\alpha}}{\partial x^{\beta}}\)</span>​ itself is a vector, it
-can be written as a linear combination of basis vector,we use symbol</p>
-<p>Γμαβ to denote the coefficients in this combination <span
-class="math display">\[
-\frac{\partial \vec{e}_{\alpha}}{\partial x^{\beta}}={\Gamma
-^{\mu}}_{\alpha \beta}\vec{e}_{\mu}\tag{10}  
-\]</span> for example,in polar coordinates: <span
-class="math display">\[
-\begin{cases}   \frac{\partial \vec{e}_r}{\partial r}=0=\varGamma
-_{rr}^{u}=0\\     \frac{\partial \vec{e}_r}{\partial
-\theta}=\frac{1}{r}\vec{e}_{\theta}=\varGamma _{r\theta}^{r}=0,\varGamma
-_{r\theta}^{\theta}=\frac{1}{r}\\   \vdots\\ \end{cases} \tag{11}
-\]</span> so,⭐ <span class="math display">\[
-\frac{\partial \vec{V}}{\partial x^{\beta}}=\left( \frac{\partial
-V^{\alpha}}{\partial x^{\beta}}+V^{\mu}{\Gamma ^{\alpha}}_{\mu \beta}
-\right) \vec{e}_{\alpha}\tag{12}
-\]</span> which can be written as: <span class="math display">\[
-{\left( \nabla \vec{V} \right) ^{\alpha}}_{\beta}=\left( \nabla
-_{\beta}\vec{V} \right) ^{\alpha}={V^{\alpha}}_{;\beta}\tag{14}
-\]</span> Similarly,an one-form can have the same property: <span
-class="math display">\[
-p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
-\beta}\tag{15}  
-\]</span> We can also write out an relationship between metric
-${<em>{,}} $ and Christoffel symbols ${^{}}</em>{} $ <span
-class="math display">\[
-\begin{split}{V^{\alpha}}_{;\beta}={V^{\alpha}}_{,\beta}+V^{\mu}{\Gamma
-^{\alpha}}_{\mu \beta}
-\\
-p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
-\beta}\end{split}\tag{10}
-\]</span></p>
-<p><span class="math display">\[
-\nabla_V \nabla_V \xi^\alpha = \nabla_V (\nabla_V \xi^\alpha) =
-\frac{d}{d\lambda} (\nabla_V \xi^\alpha) = \Gamma^\alpha_{\beta 0}
-(\nabla_V \xi^\beta)
-\]</span></p>
-]]></content>
+</body></html>]]></content>
   </entry>
 </search>
