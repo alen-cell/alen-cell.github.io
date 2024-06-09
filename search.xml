@@ -45,7 +45,7 @@ unique one-form <span class="math display">\[\tilde{V}\left( \mathcal{P}
   </entry>
   <entry>
     <title>Differential Manifold and General relativity</title>
-    <url>/2024/06/08/Math-test/</url>
+    <url>/2024/06/03/Math-test/</url>
     <content><![CDATA[<h2 id="the-metric-and-local-flatness">The metric and local
 flatness</h2>
 <p>The metric,provide a mapping between vectors and one-form at every
@@ -103,12 +103,11 @@ lengths <span class="math display">\[
 \]</span> ,integrate it gives the length of a curve： <span
 class="math display">\[
 l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha
-\beta}dx^{\alpha}dx^{\beta}|}^{1/2}
-\\
-=\int_{\lambda _0}^{\lambda _1}{|\mathrm{g}_{\alpha
-\beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^{\beta}}{d\lambda}|^{1/2}}d\lambda
-\\
+\beta}dx^{\alpha}dx^{\beta}|}^{1/2} \\ =\int_{\lambda _0}^{\lambda
+_1}{|\mathrm{g}_{\alpha
+\beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^{\beta}}{d\lambda}|^{1/2}}d\lambda  \\
 =\int_{\lambda _0}^{\lambda _1}{|\vec{V}\cdot \vec{V}|^{1/2}}d\lambda
+\tag{3}  
 \]</span> Also,the computation of volumes is very important for
 integration in space time. Here, we mean by ‘volume’ the
 <strong>four-dimensional</strong> volume element we used for
@@ -136,6 +135,22 @@ x^{0&#39;}}&amp;       \,\,&amp;       \,\,\\
 \end{matrix} \right)=\det \left( {\Lambda ^{\alpha}}_{\beta &#39;}
 \right)\tag{5}
 \]</span></p>
+<p>After some calculation,we obtains that <span class="math display">\[
+dx^0dx^1dx^2dx^3=\left[ -\det \left( \mathrm{g}_{\alpha &#39;\beta
+&#39;} \right) \right]
+dx^{0&#39;}dx^{1&#39;}dx^{2&#39;}dx^{3&#39;}=\left( -\mathrm{g} \right)
+^{1/2}dx^{0&#39;}dx^{1&#39;}dx^{2&#39;}dx^{3&#39;} \\ \mathrm{g}=\det
+\left( \mathrm{g}_{\alpha &#39;\beta &#39;} \right) \tag{6}
+\]</span> Take an example of spherical coordinates,the metric is: <span
+class="math display">\[
+\left( \mathrm{g}_{ij} \right) =\left(
+\begin{matrix}  1&amp;      0&amp;      0\\     0&amp;      r^2&amp;        0\\     0&amp;      0&amp;      r^2\sin
+^2\theta\\ \end{matrix} \right) \tag{7}  
+\]</span> remember that <span class="math display">\[
+\,\,\left( \mathrm{g}_{\alpha &#39;\beta &#39;} \right)
+=\mathrm{g}\left( \vec{e}_{\alpha &#39;},\vec{e}_{\beta &#39;} \right)
+=\vec{e}_{\alpha &#39;}\cdot \vec{e}_{\beta &#39;}\tag{8}  
+\]</span> <strong>Covariant differentiation</strong></p>
 <p>Through analyzing the derivatives of general vectors we can obtain :
 <span class="math display">\[
 \frac{\partial \vec{V}}{\partial x^{\beta}}=\frac{\partial
@@ -143,7 +158,31 @@ V^{\alpha}}{\partial x^{\beta}}\vec{e}_{\alpha}+V^{\alpha}\frac{\partial
 \vec{e}_{\alpha}}{\partial x^{\beta}}\tag{9}\\
 \]</span></p>
 <p>Notice that <span class="math inline">\(\frac{\partial
-\vec{e}_{\alpha}}{\partial x^{\beta}}\)</span> <span
+\vec{e}_{\alpha}}{\partial x^{\beta}}\)</span>​ itself is a vector, it
+can be written as a linear combination of basis vector,we use symbol</p>
+<p>Γμαβ to denote the coefficients in this combination <span
+class="math display">\[
+\frac{\partial \vec{e}_{\alpha}}{\partial x^{\beta}}={\Gamma
+^{\mu}}_{\alpha \beta}\vec{e}_{\mu}\tag{10}  
+\]</span> for example,in polar coordinates: <span
+class="math display">\[
+\begin{cases}   \frac{\partial \vec{e}_r}{\partial r}=0=\varGamma
+_{rr}^{u}=0\\     \frac{\partial \vec{e}_r}{\partial
+\theta}=\frac{1}{r}\vec{e}_{\theta}=\varGamma _{r\theta}^{r}=0,\varGamma
+_{r\theta}^{\theta}=\frac{1}{r}\\   \vdots\\ \end{cases} \tag{11}
+\]</span> so,⭐ <span class="math display">\[
+\frac{\partial \vec{V}}{\partial x^{\beta}}=\left( \frac{\partial
+V^{\alpha}}{\partial x^{\beta}}+V^{\mu}{\Gamma ^{\alpha}}_{\mu \beta}
+\right) \vec{e}_{\alpha}\tag{12}
+\]</span> which can be written as: <span class="math display">\[
+{\left( \nabla \vec{V} \right) ^{\alpha}}_{\beta}=\left( \nabla
+_{\beta}\vec{V} \right) ^{\alpha}={V^{\alpha}}_{;\beta}\tag{14}
+\]</span> Similarly,an one-form can have the same property: <span
+class="math display">\[
+p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
+\beta}\tag{15}  
+\]</span> We can also write out an relationship between metric
+${<em>{,}} $ and Christoffel symbols ${^{}}</em>{} $ <span
 class="math display">\[
 \begin{split}{V^{\alpha}}_{;\beta}={V^{\alpha}}_{,\beta}+V^{\mu}{\Gamma
 ^{\alpha}}_{\mu \beta}
