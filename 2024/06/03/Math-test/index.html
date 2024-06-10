@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.2.0">
@@ -10,19 +12,20 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-<link rel="stylesheet" href="//fonts.lug.ustc.edu.cn/css?family=Times+New+Roman:300,300italic,400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext">
+<link rel="stylesheet" href="//fonts.lug.ustc.edu.cn/css?family=Times+New+Roman:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha256-XOqroi11tY4EFQMR9ZYwZWKj5ZXiftSx36RRuC3anlA=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.31/fancybox/fancybox.css" integrity="sha256-gkQVf8UKZgQ0HyuxL/VnacadJ+D2Kox2TCEBuNQg5+w=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":200,"width_dual_column":400,"display":"post","padding":10,"offset":20},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":200,"width_dual_column":400,"display":"post","padding":10,"offset":20},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="The metric and local flatness The metric,provide a mapping between vectors and one-form at every point.Given a vector field \(\vec{V}(\mathcal{P})\) ( \(\mathcal{P}\) is any point),there is a unique o">
+    <meta name="description" content="The metric and local flatness The metric,provide a mapping between vectors and one-form at every point.Given a vector field \(\vec{V}(\mathcal{P})\) ( \(\mathcal{P}\) is any point),there is a uniq">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Differential Manifold and General relativity">
 <meta property="og:url" content="http://example.com/2024/06/03/Math-test/index.html">
-<meta property="og:site_name" content="Ruohan's">
-<meta property="og:description" content="The metric and local flatness The metric,provide a mapping between vectors and one-form at every point.Given a vector field \(\vec{V}(\mathcal{P})\) ( \(\mathcal{P}\) is any point),there is a unique o">
+<meta property="og:site_name" content="Ruohan&#39;s">
+<meta property="og:description" content="The metric and local flatness The metric,provide a mapping between vectors and one-form at every point.Given a vector field \(\vec{V}(\mathcal{P})\) ( \(\mathcal{P}\) is any point),there is a uniq">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-06-03T11:04:20.000Z">
 <meta property="article:modified_time" content="2024-06-08T13:53:32.611Z">
@@ -52,12 +55,12 @@
   </noscript>
 </head>
 
-<body itemscope="" itemtype="http://schema.org/WebPage" class="use-motion">
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
 
   <main class="main">
     <div class="column">
-      <header class="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="Toggle navigation bar" role="button">
         <span class="toggle-line"></span>
@@ -73,7 +76,7 @@
       <p class="site-title">Ruohan's</p>
       <i class="logo-line"></i>
     </a>
-      <img class="custom-logo-image" src="/uploads/earth.jpg" alt="Ruohan's">
+      <img class="custom-logo-image" src="/uploads/earth_2x.jpg" alt="Ruohan's">
   </div>
 
   <div class="site-nav-right">
@@ -102,7 +105,9 @@
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off" maxlength="80" placeholder="Searching..." spellcheck="false" type="search" class="search-input">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
   </div>
   <span class="popup-btn-close" role="button">
     <i class="fa fa-times-circle"></i>
@@ -141,8 +146,9 @@ flatness</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" hre
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author animated" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Ruohan Yang" src="/images/avatar.jpg">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Ruohan Yang"
+      src="/images/avatar.jpg">
   <p class="site-author-name" itemprop="name">Ruohan Yang</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -158,16 +164,16 @@ flatness</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" hre
 </div>
   <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="/uploads/wechat.jpg" title="Wechat:ALEN_CELL → /uploads/wechat.jpg" rel="noopener me"><i class="fab fa-weixin fa-fw"></i>Wechat:ALEN_CELL</a>
+        <a href="/uploads/wechat.jpg" title="Wechat:ALEN_CELL → &#x2F;uploads&#x2F;wechat.jpg" rel="noopener me"><i class="fab fa-weixin fa-fw"></i>Wechat:ALEN_CELL</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://github.com/alen-cell" title="GitHub → https://github.com/alen-cell" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+        <a href="https://github.com/alen-cell" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;alen-cell" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
       <span class="links-of-author-item">
         <a href="/alencell@163.com" title="E-Mail → alencell@163.com" rel="noopener me"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://www.zhihu.com/people/aleanna/columns" title="Zhihu → https://www.zhihu.com/people/aleanna/columns" rel="noopener me" target="_blank"><i class="fab fa-zhihu fa-fw"></i>Zhihu</a>
+        <a href="https://www.zhihu.com/people/aleanna/columns" title="Zhihu → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;aleanna&#x2F;columns" rel="noopener me" target="_blank"><i class="fab fa-zhihu fa-fw"></i>Zhihu</a>
       </span>
   </div>
 
@@ -204,20 +210,20 @@ flatness</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" hre
   
   
 
-  <article itemscope="" itemtype="http://schema.org/Article" class="post-content" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/06/03/Math-test/">
 
-    <span hidden="" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="Ruohan Yang">
     </span>
 
-    <span hidden="" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="Ruohan's">
       <meta itemprop="description" content="">
     </span>
 
-    <span hidden="" itemprop="post" itemscope="" itemtype="http://schema.org/CreativeWork">
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
       <meta itemprop="name" content="Differential Manifold and General relativity | Ruohan's">
       <meta itemprop="description" content="">
     </span>
@@ -256,12 +262,15 @@ flatness</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" hre
     <div class="post-body" itemprop="articleBody"><h2 id="the-metric-and-local-flatness">The metric and local
 flatness</h2>
 <p>The metric,provide a mapping between vectors and one-form at every
-point.Given a vector field <span class="math inline">\(\vec{V}(\mathcal{P})\)</span> ( <span class="math inline">\(\mathcal{P}\)</span> is any point),there is a
+point.Given a vector field <span
+class="math inline">\(\vec{V}(\mathcal{P})\)</span> ( <span
+class="math inline">\(\mathcal{P}\)</span> is any point),there is a
 unique one-form <span class="math inline">\(\tilde{V}\left( \mathcal{P}
 \right)=g(\vec{V}(\mathcal{P}) ,\ \   )\)</span>.metric near $ $ is
 approximately that of <strong>SR</strong>, differences being of second
 order in the coordinates. From now on we shall refer to such coordinate
-systems as ‘local Lorentz frames’ or ‘local inertial frames’. <span class="math display">\[
+systems as ‘local Lorentz frames’ or ‘local inertial frames’. <span
+class="math display">\[
 g_{\alpha \beta} =
 \begin{pmatrix}
 -1 &amp; 0 &amp; 0 &amp; 0 \\
@@ -275,7 +284,8 @@ g_{\alpha \beta} =
 g_{\alpha \beta}\left( x^{\mu} \right) =\eta _{\alpha \beta}+0\left[
 \left( x^{\mu} \right) ^2 \right]  \tag{1}
 \]</span></p>
-<p>which can be rephrased in a more precise way: <span class="math display">\[
+<p>which can be rephrased in a more precise way: <span
+class="math display">\[
 \begin{split}g_{\alpha \beta}\left( \mathcal{P} \right) =\eta _{\alpha
 \beta} \\ \frac{\partial}{\partial x^{\gamma}}g_{\alpha \beta}\left(
 \mathcal{P} \right) =0  \\ \frac{\partial ^2}{\partial
@@ -303,7 +313,8 @@ physics will be nearly as simple in them as in flat spacetime.</p>
 lengths <span class="math display">\[
 \begin{align}ds^2=|\mathrm{g}_{\alpha
 \beta}dx^{\alpha}dx^{\beta}|\end{align}
-\]</span> ,integrate it gives the length of a curve： <span class="math display">\[
+\]</span> ,integrate it gives the length of a curve： <span
+class="math display">\[
 l=\int_{\mathrm{curve}}{|\mathrm{g}_{\alpha
 \beta}dx^{\alpha}dx^{\beta}|}^{1/2} \\ =\int_{\lambda _0}^{\lambda
 _1}{|\mathrm{g}_{\alpha
@@ -316,39 +327,42 @@ integration in space time. Here, we mean by ‘volume’ the
 integrations in Gauss’ law.</p>
 <p>We know that we can write <span class="math display">\[
 dx^0dx^1dx^2dx^3=\frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial
-\left( x^{0'},x^{1'},x^{2'},x^{3'}
-\right)}dx^{0'}dx^{1'}dx^{2'}dx^{3'}\tag{6}
+\left( x^{0&#39;},x^{1&#39;},x^{2&#39;},x^{3&#39;}
+\right)}dx^{0&#39;}dx^{1&#39;}dx^{2&#39;}dx^{3&#39;}\tag{6}
 \]</span></p>
 <p>The factor<span class="math inline">\(\frac{\partial \left(
 x^0,x^1,x^2,x^3 \right)}{\partial \left(
-x^{0'},x^{1'},x^{2'},x^{3'} \right)}\)</span>is the
-<strong>Jacobian</strong> of the transformation from <span class="math inline">\(\left\{ x^{\alpha'} \right\}\)</span> to <span class="math inline">\(\left\{ x^{\alpha} \right\}\)</span> ,it is the
+x^{0&#39;},x^{1&#39;},x^{2&#39;},x^{3&#39;} \right)}\)</span>is the
+<strong>Jacobian</strong> of the transformation from <span
+class="math inline">\(\left\{ x^{\alpha&#39;} \right\}\)</span> to <span
+class="math inline">\(\left\{ x^{\alpha} \right\}\)</span> ,it is the
 same as <span class="math display">\[
 \frac{\partial \left( x^0,x^1,x^2,x^3 \right)}{\partial \left(
-x^{0'},x^{1'},x^{2'},x^{3'} \right)}=\det \left(
+x^{0&#39;},x^{1&#39;},x^{2&#39;},x^{3&#39;} \right)}=\det \left(
 \begin{matrix}
-    \frac{\partial x^0}{\partial x^{0'}}&amp;       \frac{\partial
-x^0}{\partial x^{1'}}&amp;       \cdots\\
+    \frac{\partial x^0}{\partial x^{0&#39;}}&amp;       \frac{\partial
+x^0}{\partial x^{1&#39;}}&amp;       \cdots\\
     \frac{\partial x^1}{\partial
-x^{0'}}&amp;       \,\,&amp;       \,\,\\
+x^{0&#39;}}&amp;       \,\,&amp;       \,\,\\
     \vdots&amp;     \,\,&amp;       \,\,\
-\end{matrix} \right)=\det \left( {\Lambda ^{\alpha}}_{\beta '}
+\end{matrix} \right)=\det \left( {\Lambda ^{\alpha}}_{\beta &#39;}
 \right)\tag{5}
 \]</span></p>
 <p>After some calculation,we obtains that <span class="math display">\[
-dx^0dx^1dx^2dx^3=\left[ -\det \left( \mathrm{g}_{\alpha '\beta
-'} \right) \right]
-dx^{0'}dx^{1'}dx^{2'}dx^{3'}=\left( -\mathrm{g} \right)
-^{1/2}dx^{0'}dx^{1'}dx^{2'}dx^{3'} \\ \mathrm{g}=\det
-\left( \mathrm{g}_{\alpha '\beta '} \right) \tag{6}
-\]</span> Take an example of spherical coordinates,the metric is: <span class="math display">\[
+dx^0dx^1dx^2dx^3=\left[ -\det \left( \mathrm{g}_{\alpha &#39;\beta
+&#39;} \right) \right]
+dx^{0&#39;}dx^{1&#39;}dx^{2&#39;}dx^{3&#39;}=\left( -\mathrm{g} \right)
+^{1/2}dx^{0&#39;}dx^{1&#39;}dx^{2&#39;}dx^{3&#39;} \\ \mathrm{g}=\det
+\left( \mathrm{g}_{\alpha &#39;\beta &#39;} \right) \tag{6}
+\]</span> Take an example of spherical coordinates,the metric is: <span
+class="math display">\[
 \left( \mathrm{g}_{ij} \right) =\left(
 \begin{matrix}  1&amp;      0&amp;      0\\     0&amp;      r^2&amp;        0\\     0&amp;      0&amp;      r^2\sin
 ^2\theta\\ \end{matrix} \right) \tag{7}  
 \]</span> remember that <span class="math display">\[
-\,\,\left( \mathrm{g}_{\alpha '\beta '} \right)
-=\mathrm{g}\left( \vec{e}_{\alpha '},\vec{e}_{\beta '} \right)
-=\vec{e}_{\alpha '}\cdot \vec{e}_{\beta '}\tag{8}  
+\,\,\left( \mathrm{g}_{\alpha &#39;\beta &#39;} \right)
+=\mathrm{g}\left( \vec{e}_{\alpha &#39;},\vec{e}_{\beta &#39;} \right)
+=\vec{e}_{\alpha &#39;}\cdot \vec{e}_{\beta &#39;}\tag{8}  
 \]</span> <strong>Covariant differentiation</strong></p>
 <p>Through analyzing the derivatives of general vectors we can obtain :
 <span class="math display">\[
@@ -359,10 +373,12 @@ V^{\alpha}}{\partial x^{\beta}}\vec{e}_{\alpha}+V^{\alpha}\frac{\partial
 <p>Notice that <span class="math inline">\(\frac{\partial
 \vec{e}_{\alpha}}{\partial x^{\beta}}\)</span>​ itself is a vector, it
 can be written as a linear combination of basis vector,we use symbol</p>
-<p>Γμαβ to denote the coefficients in this combination <span class="math display">\[
+<p>Γμαβ to denote the coefficients in this combination <span
+class="math display">\[
 \frac{\partial \vec{e}_{\alpha}}{\partial x^{\beta}}={\Gamma
 ^{\mu}}_{\alpha \beta}\vec{e}_{\mu}\tag{10}  
-\]</span> for example,in polar coordinates: <span class="math display">\[
+\]</span> for example,in polar coordinates: <span
+class="math display">\[
 \begin{cases}   \frac{\partial \vec{e}_r}{\partial r}=0=\varGamma
 _{rr}^{u}=0\\     \frac{\partial \vec{e}_r}{\partial
 \theta}=\frac{1}{r}\vec{e}_{\theta}=\varGamma _{r\theta}^{r}=0,\varGamma
@@ -374,11 +390,13 @@ V^{\alpha}}{\partial x^{\beta}}+V^{\mu}{\Gamma ^{\alpha}}_{\mu \beta}
 \]</span> which can be written as: <span class="math display">\[
 {\left( \nabla \vec{V} \right) ^{\alpha}}_{\beta}=\left( \nabla
 _{\beta}\vec{V} \right) ^{\alpha}={V^{\alpha}}_{;\beta}\tag{14}
-\]</span> Similarly,an one-form can have the same property: <span class="math display">\[
+\]</span> Similarly,an one-form can have the same property: <span
+class="math display">\[
 p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
 \beta}\tag{15}  
 \]</span> We can also write out an relationship between metric
-${<em>{,}} $ and Christoffel symbols ${^{}}</em>{} $ <span class="math display">\[
+${<em>{,}} $ and Christoffel symbols ${^{}}</em>{} $ <span
+class="math display">\[
 \begin{split}{V^{\alpha}}_{;\beta}={V^{\alpha}}_{,\beta}+V^{\mu}{\Gamma
 ^{\alpha}}_{\mu \beta}
 \\
@@ -469,14 +487,14 @@ p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
     <div class="footer-inner">
 
   <div class="copyright">
-    © 2021 – 
+    &copy; 2021 – 
     <span itemprop="copyrightYear">2024</span>
     <span class="with-love">
       <i class="fa fa-heart"></i>
     </span>
     <span class="author" itemprop="copyrightHolder">Ruohan Yang</span>
   </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> &amp; <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a>
   </div>
 
     </div>
@@ -501,8 +519,9 @@ p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancyapps-ui/5.0.31/fancybox/fancybox.umd.js" integrity="sha256-a+H7FYzJv6oU2hfsfDGM2Ohw/cR9v+hPfxHCLdmCrE8=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
@@ -510,6 +529,7 @@ p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
 
 
 
+  <script src="/js/third-party/fancybox.js"></script>
 
 
 
@@ -525,6 +545,5 @@ p_{\alpha ;\beta}=p_{\alpha ,\beta}-p_{\mu}{\Gamma ^{\mu}}_{\alpha
 
 
 
-
-
-<script type="text/javascript" charset="utf-8" src="/js/lazyload-plugin/lazyload.intersectionObserver.min.js"></script></body></html>
+</body>
+</html>
